@@ -1,1 +1,1 @@
-web: gunicorn sitebooks.wsgi --log-file -
+web: gunicorn shopbodyparts.wsgi --log-file -
