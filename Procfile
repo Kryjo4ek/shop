@@ -1,1 +1,1 @@
-web: gunicorn shopbodyparts.wsgi --log-file -
+web: gunicorn shop.wsgi --log-file -
