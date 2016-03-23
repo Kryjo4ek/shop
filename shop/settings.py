@@ -76,8 +76,12 @@ WSGI_APPLICATION = 'shop.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    'ENGINE': 'django.db.backends.postgresql_psycopg2',
+    'NAME': 'db21c4vpa6vk3n',
+    'USER': 'llqkcjjzmaznhw',
+    'PASSWORD': 'Wzgl5eSDIrLyIc02gvMUluC1Be',
+    'HOST': 'ec2-54-225-134-223.compute-1.amazonaws.com', # Set to empty string for localhost.
+    'PORT': '5432', # Set to empty string for default.
     }
 }
 
